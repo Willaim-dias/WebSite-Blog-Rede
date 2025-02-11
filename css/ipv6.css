@@ -1,0 +1,106 @@
+/*General*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    min-height: 100vh;
+    position: relative;
+}
+
+body {
+    background-image: url("../img/imgBack.jpg");
+}
+
+.sub-title {
+    text-align: center;
+    font-size: 50px;
+    color: #fff;
+}
+
+/*section*/
+.General-section {
+    padding: 10px;
+    color: #fff;
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: 0 auto;
+    border-radius: 10px;
+    width: 90%;
+}
+
+.General-section ul {
+    padding: 0 30px;
+}
+
+.p-paragraph {
+    text-align: justify;
+}
+
+
+/*return button*/
+
+#div-return-top {
+    margin: 30px;
+    text-align: center;
+}
+
+#div-return-top > a {
+    background-color: #008000;
+    color: #fff;
+    padding: 10px 10% 10px 10%;
+    border-radius: 10px;
+    font-size: 25px;
+    margin-bottom: 100px;
+    text-align: center;
+    transition: .5s;
+}
+
+#div-return-top a:hover{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#div-return-button {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+#div-return-button > a{
+    background-color: #008000;
+    color: #fff;
+    padding: 20px 25% 20px 25%;
+    border-radius: 10px;
+    font-size: 25px;
+    transition: .5s;
+}
+
+#div-return-button > a:hover{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+/*baseboard*/
+footer {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/*Responsiveness*/
+@media (max-width: 420px) {
+
+    /*container general*/
+    .General-section {
+       width: 90%; 
+    }
+
+    #div-return-button {
+        margin-bottom: 100px;
+    }
+}
