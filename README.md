@@ -2,6 +2,8 @@
 ## Descrição
 Este Blog aborda protocolos como, IPv4, IPv6, TCP/UDP e sockets. Além de oferecer alguns exemplos práticos.
 
+<img src="Capturar.png"  height="400" alt="img aplicação em execução"/>
+
 ## Frameworks Utilizados
 Bootstrap: Framework front-end amplamente utilizado para desenvolver sites e aplicações web responsivas e móveis.
 
