@@ -1,6 +1,6 @@
 # Blog-Rede
 ## Descrição
-Este Blog aborda protocolos como, IPv4, IPv6, TCP/UDP e sockets. Além de oferecer alguns exemplos práticos.
+Projeto criado para uma apresentação acadêmica. Este blog aborda protocolos como IPv4, IPv6, TCP/UDP e sockets, além de oferecer alguns exemplos práticos.
 
 <img src="Capturar.png"  height="400" alt="img aplicação em execução"/>
 
